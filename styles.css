@@ -1,0 +1,23 @@
+:root {
+  --darkest-gray: #2e3440;
+  --darker-gray: #3b4252;
+  --dark-gray: #434c5e;
+  --gray: #4c566a;
+  --white: #d8dee9;
+  --lighter-white: #e5e9f0;
+  --lightest-white: #eceff4;
+  --light-green: #8fbcbb;
+  --teal: #88c0d0;
+  --light-blue: #81a1c1;
+  --blue: #5e81ac;
+  --red: #bf616a;
+  --orange: #d08770;
+  --yellow: #ebcb8b;
+  --green: #a3be8c;
+  --purple: #b48ead;
+}
+
+body {
+  background: var(--darkest-gray);
+  color: var(--lightest-white);
+}
