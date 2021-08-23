@@ -49,7 +49,7 @@ section {
 }
 
 .green {
-  background: var(--green):
+  background: var(--green);
 }
 
 .blue {
@@ -58,4 +58,107 @@ section {
 
 .purple {
   background: var(--purple);
+}
+
+.red-to-orange {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.red-to-orange svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 150px;
+}
+
+.red-to-orange .shape-fill {
+    fill: #d08770;
+}
+
+.orange-to-yellow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.orange-to-yellow svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 100px;
+}
+
+.orange-to-yellow .shape-fill {
+    fill: #ebcb8b;
+}
+
+.yellow-to-green {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.yellow-to-green svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 91px;
+}
+
+.yellow-to-green .shape-fill {
+    fill: #a3be8c;
+}
+
+.green-to-blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.green-to-blue svg {
+    position: relative;
+    display: block;
+    width: calc(139% + 1.3px);
+    height: 78px;
+}
+
+.green-to-blue .shape-fill {
+    fill: #a3be8c;
+}
+
+.blue-to-purple {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.blue-to-purple svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 80px;
+}
+
+.blue-to-purple .shape-fill {
+    fill: #5e81ac;
 }
